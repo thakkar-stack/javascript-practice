@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <script>
+            function add7(n) {
+                n = +(prompt('Number?:'));
+                console.log(n+7);
+            }
+
+            function multiply(a,b){
+                a = +(prompt('first val?:'));
+                b = +(prompt('second val?:'));
+                console.log(a*b);
+            }
+            
+            function capitalize(str){
+                str = prompt('Enter a string:');
+                char = str.substring(0,1);
+                char = char.toUpperCase();
+                console.log(char + str.substring(1));
+            }
+
+            function lastLetter(str){
+                str = prompt('Enter a string:');
+                console.log(str.substring(str.length-1, str.length))
+            }
+            
+        </script>
+    </head>
+
+    <body>
+    </body>
+</html>
